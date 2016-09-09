@@ -25,7 +25,8 @@
             totalHeightCM = (heightInches * 2.54) + heightFeet;
             age = 35;
             isCitizen = true;
-            canVote = isCitizen = true      }
+            canVote = isCitizen = true + age = 18++;
+            }
     }
 }
 
