@@ -25,7 +25,10 @@
             totalHeightCM = (heightInches * 2.54) + heightFeet;
             age = 35;
             isCitizen = true;
-            canVote = isCitizen = true + age = 18++;
+            canVote = isCitizen = true && age >= 18;
+            System.Console.ReadLine(fullName);
+            double.Parse.System.Console.ReadLine(totalHeightCM);
+            bool.Parse.Console.ReadLine(canVote);
             }
     }
 }
