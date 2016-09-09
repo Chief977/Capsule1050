@@ -15,7 +15,7 @@
             int heightFeet;
             double heightInches;
             double totalHeightCM;
-
+            
             firstName = "Terrence";
             middleinitial = "D";
             lastName = "Myhand";
@@ -25,11 +25,17 @@
             totalHeightCM = (heightInches * 2.54) + heightFeet;
             age = 35;
             isCitizen = true;
+            isCitizen = false;
+
             canVote = isCitizen = true && age >= 18;
-            System.Console.ReadLine(fullName);
-            double.Parse.System.Console.ReadLine(totalHeightCM);
-            bool.Parse.Console.ReadLine(canVote);
-            }
+            
+            System.Console.WriteLine(fullName);
+            System.Console.WriteLine(totalHeightCM);
+            System.Console.WriteLine(canVote);
+
+
+
+        }
     }
 }
 
