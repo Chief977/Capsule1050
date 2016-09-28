@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Assignment2
 {
-    class P2
+    class Person
     {
         public int age;
         public string firstName;
         public string lastName;
-        public P2 spouse;
+        public Person spouse;
+
     }
 }
