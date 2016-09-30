@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Assignment2
+﻿namespace Assignment2
 {
     class Program
     {
@@ -20,7 +14,7 @@ namespace Assignment2
             p1.LastName = "Myhand";
 
             //what is your age?
-            p1.Age = 34;
+            p1.Age = 35;
 
             p1.Spouse = new Person();
             //what is your spouse's first name?
@@ -42,7 +36,7 @@ namespace Assignment2
             p2.FirstName = "Akari";
 
             //what is your last name?
-            p2.LastName = "Murasaki";
+            p2.LastName = "Aoiyama";
 
             //what is your age?
             p2.Age = 31;
