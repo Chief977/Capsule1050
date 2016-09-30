@@ -18,18 +18,21 @@ namespace Assignment2
 
         public class person
         {
+            public int Age;
             public string FirstName;
             public string LastName;
             public string GetFullName()
-   
-        {
-            return this.FirstName + " " + LastName;
+
+            {
+               
+                return this.FirstName + " " + LastName;
+            }
+            public void PrintFullNameAndAge()
+            {
+                System.Console.WriteLine(this.FirstName + this.LastName);
+                System.Console.WriteLine("My name is" + this.GetFullName());
+                
+
+            }
         }
-            public void PrintNameAndAge()
-            { System.Console.WriteLine(this.FirstName+this.LastName)
-              System.Console.WriteLine("My name is" + this.GetFullName()
-              System.Console.WriteLine("My age is" + this.Age);
-              
-            }            
-    }       
-}
+    } }
