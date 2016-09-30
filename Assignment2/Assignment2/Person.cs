@@ -6,15 +6,19 @@
         public string FirstName;
         public string LastName;
         public Person Spouse;
+        public string AverageAge;
 
         public static double SumOfAllAges;
-
+        
         public string GetFullName()
         {
             return FirstName + " " + LastName;
         }
-        public void PrintNameAndAge()
-        {System.Console.WriteLine(FirstName + LastName + SumOfAllAges); }
-           }
+
+        public void PrintFullNameAndAge()
+
+        {
         }
+    }
+}  
     
