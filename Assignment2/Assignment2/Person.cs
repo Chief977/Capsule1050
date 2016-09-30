@@ -11,28 +11,11 @@ namespace Assignment2
         public int Age;
         public string FirstName;
         public string LastName;
-        public Person spouse;
+        public Person Spouse;
 
         public static double SumOfAllAges;
-        public string AverageAge;
 
-        public class person
-        {
-            public int Age;
-            public string FirstName;
-            public string LastName;
-            public string GetFullName()
-
-            {
-               
-                return this.FirstName + " " + LastName;
-            }
-            public void PrintFullNameAndAge()
-            {
-                System.Console.WriteLine(this.FirstName + this.LastName);
-                System.Console.WriteLine("My name is" + this.GetFullName());
-                
-
-            }
+              
+           }
         }
-    } }
+    

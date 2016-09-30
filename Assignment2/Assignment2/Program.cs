@@ -22,18 +22,18 @@ namespace Assignment2
             //what is your age?
             p1.Age = 34;
 
-            p1.spouse = new Person();
+            p1.Spouse = new Person();
             //what is your spouse's first name?
-            p1.spouse.FirstName = "Momo";
+            p1.Spouse.FirstName = "Momo";
 
             //what is your spouse's last name?
-            p1.spouse.LastName = "Murasaki";
+            p1.Spouse.LastName = "Murasaki";
 
             //what is your spouse's age?
-            p1.spouse.Age = 25;
+            p1.Spouse.Age = 25;
 
-            p1.spouse.LastName = p1.LastName;
-            p1.spouse.spouse = p1;
+            p1.Spouse.LastName = p1.LastName;
+            p1.Spouse.Spouse = p1;
 
             Person p2;
             p2 = new Person();
@@ -47,18 +47,18 @@ namespace Assignment2
             //what is your age?
             p2.Age = 31;
                             
-            p2.spouse = new Person();
+            p2.Spouse = new Person();
             //what is your spouse's first name?
-            p2.spouse.FirstName = "Kintaro";
+            p2.Spouse.FirstName = "Kintaro";
 
             //what is your spouse's last name?
-            p2.spouse.LastName = "Okami";
+            p2.Spouse.LastName = "Okami";
 
             //what is your spouse's age?
-            p2.spouse.Age = 33;
+            p2.Spouse.Age = 33;
 
-            p2.spouse.LastName = p2.LastName;
-            p2.spouse.spouse = p2; 
+            p2.Spouse.LastName = p2.LastName;
+            p2.Spouse.Spouse = p2; 
 
 
         }
