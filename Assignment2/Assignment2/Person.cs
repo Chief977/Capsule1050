@@ -10,8 +10,7 @@
 
         public static double SumOfAllAges = 124;
         
-       
-                
+                       
         public string GetFullName()
         {
             return FirstName + " " + LastName;
@@ -20,9 +19,8 @@
         public void PrintFullNameAndAge()
 
         {
-            System.Console.WriteLine(FirstName);
-            System.Console.WriteLine(LastName);
-            System.Console.WriteLine(Age);
+            System.Console.WriteLine(FirstName + LastName + Age);
+                        
         }
     }
 }  

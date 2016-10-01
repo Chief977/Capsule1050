@@ -15,7 +15,7 @@
 
             //what is your age?
             p1.Age = 35;
-
+                        
             p1.Spouse = new Person();
             //what is your spouse's first name?
             p1.Spouse.FirstName = "Momo";
@@ -54,8 +54,12 @@
             p2.Spouse.LastName = p2.LastName;
             p2.Spouse.Spouse = p2;
 
-            
-         
+            System.Console.WriteLine(p1.GetFullName());
+            System.Console.WriteLine(p2.GetFullName());
+            System.Console.WriteLine(p1.Spouse.GetFullName());
+            System.Console.WriteLine(p2.Spouse.GetFullName());
+
+
         }
     }
 }
