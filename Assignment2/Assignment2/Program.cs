@@ -54,11 +54,12 @@
             p2.Spouse.LastName = p2.LastName;
             p2.Spouse.Spouse = p2;
 
-            System.Console.WriteLine(p1.GetFullName());
-            System.Console.WriteLine(p2.GetFullName());
-            System.Console.WriteLine(p1.Spouse.GetFullName());
-            System.Console.WriteLine(p2.Spouse.GetFullName());
+            System.Console.WriteLine(p1.PrintFullNameAndAge());
+            System.Console.WriteLine(p2.PrintFullNameAndAge());
+            System.Console.WriteLine(p1.Spouse.PrintFullNameAndAge());
+            System.Console.WriteLine(p2.Spouse.PrintFullNameAndAge());
 
+            
 
         }
     }
