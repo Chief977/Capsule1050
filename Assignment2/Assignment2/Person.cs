@@ -8,8 +8,10 @@
         public Person Spouse;
         public string AverageAge;
 
-        public static double SumOfAllAges;
+        public static double SumOfAllAges = 124;
         
+       
+                
         public string GetFullName()
         {
             return FirstName + " " + LastName;
@@ -18,6 +20,9 @@
         public void PrintFullNameAndAge()
 
         {
+            System.Console.WriteLine(FirstName);
+            System.Console.WriteLine(LastName);
+            System.Console.WriteLine(Age);
         }
     }
 }  
